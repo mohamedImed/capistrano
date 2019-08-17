@@ -1,0 +1,2 @@
+# capistrano
+exemple de projet
