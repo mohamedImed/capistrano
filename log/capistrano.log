@@ -1,0 +1,216 @@
+# Logfile created on 2019-08-17 16:53:30 +0000 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 16:53:30 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9d47e37d] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [9d47e37d] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 16:56:17 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [673c3adb] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [673c3adb] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 16:59:47 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5a8480a3] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [5a8480a3] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:02:47 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c9c88dfe] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [c9c88dfe] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:03:09 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3a253115] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [3a253115] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:03:39 +0000 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:04:37 +0000 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:04:40 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1675daa9] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [1675daa9] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:06:18 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5c146eec] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [5c146eec] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:06:43 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [154b928e] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [154b928e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:06:56 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [31bf77cc] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [31bf77cc] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 17:07:47 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a798bbfc] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [a798bbfc] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 19:36:35 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d7d64faf] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.11
+ DEBUG [d7d64faf] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 19:40:08 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [89879bab] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.10
+ DEBUG [89879bab] Command: /usr/bin/env mkdir -p /tmp
+  INFO [89879bab] Finished in 6.484 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 100.0%
+  INFO [d620f0a7] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh as vagrant@192.168.33.10
+ DEBUG [d620f0a7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh
+  INFO [d620f0a7] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [b61d63e4] Running /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD as vagrant@192.168.33.10
+ DEBUG [b61d63e4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD )
+ DEBUG [b61d63e4] 	e777a4387c66eb6a3cfe63f7fd9659efa29b9782	HEAD
+  INFO [b61d63e4] Finished in 1.099 seconds with exit status 0 (successful).
+  INFO [8184887c] Running /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases as vagrant@192.168.33.10
+ DEBUG [8184887c] Command: /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases
+ DEBUG [8184887c] 	mkdir: 
+ DEBUG [8184887c] 	cannot create directory ‘/var/www’
+ DEBUG [8184887c] 	: Permission denied
+ DEBUG [8184887c] 	
+ DEBUG [8184887c] 	mkdir: 
+ DEBUG [8184887c] 	cannot create directory ‘/var/www’
+ DEBUG [8184887c] 	: Permission denied
+ DEBUG [8184887c] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 19:43:37 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9a3b9bda] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.10
+ DEBUG [9a3b9bda] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9a3b9bda] Finished in 3.062 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 100.0%
+  INFO [9ac768b4] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh as vagrant@192.168.33.10
+ DEBUG [9ac768b4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh
+  INFO [9ac768b4] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [28610e3f] Running /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD as vagrant@192.168.33.10
+ DEBUG [28610e3f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD )
+ DEBUG [28610e3f] 	e777a4387c66eb6a3cfe63f7fd9659efa29b9782	HEAD
+  INFO [28610e3f] Finished in 1.038 seconds with exit status 0 (successful).
+  INFO [0ce0a129] Running /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases as vagrant@192.168.33.10
+ DEBUG [0ce0a129] Command: /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases
+ DEBUG [0ce0a129] 	mkdir: 
+ DEBUG [0ce0a129] 	cannot create directory ‘/var/www/capistrano’
+ DEBUG [0ce0a129] 	: Permission denied
+ DEBUG [0ce0a129] 	
+ DEBUG [0ce0a129] 	mkdir: 
+ DEBUG [0ce0a129] 	cannot create directory ‘/var/www/capistrano’
+ DEBUG [0ce0a129] 	: Permission denied
+ DEBUG [0ce0a129] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 19:44:07 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5b1dac04] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.10
+ DEBUG [5b1dac04] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5b1dac04] Finished in 2.531 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 100.0%
+  INFO [d96259aa] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh as vagrant@192.168.33.10
+ DEBUG [d96259aa] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh
+  INFO [d96259aa] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [dc5382f2] Running /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD as vagrant@192.168.33.10
+ DEBUG [dc5382f2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD )
+ DEBUG [dc5382f2] 	e777a4387c66eb6a3cfe63f7fd9659efa29b9782	HEAD
+  INFO [dc5382f2] Finished in 0.912 seconds with exit status 0 (successful).
+  INFO [7e89d4e6] Running /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases as vagrant@192.168.33.10
+ DEBUG [7e89d4e6] Command: /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases
+ DEBUG [7e89d4e6] 	mkdir: 
+ DEBUG [7e89d4e6] 	cannot create directory ‘/var/www/capistrano/shared’
+ DEBUG [7e89d4e6] 	: Permission denied
+ DEBUG [7e89d4e6] 	
+ DEBUG [7e89d4e6] 	mkdir: 
+ DEBUG [7e89d4e6] 	cannot create directory ‘/var/www/capistrano/releases’
+ DEBUG [7e89d4e6] 	: Permission denied
+ DEBUG [7e89d4e6] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-17 19:44:33 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b3b0449a] Running /usr/bin/env mkdir -p /tmp as vagrant@192.168.33.10
+ DEBUG [b3b0449a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b3b0449a] Finished in 2.489 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-vagrant.sh 100.0%
+  INFO [967f7d54] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh as vagrant@192.168.33.10
+ DEBUG [967f7d54] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-vagrant.sh
+  INFO [967f7d54] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [c7a69721] Running /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD as vagrant@192.168.33.10
+ DEBUG [c7a69721] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git ls-remote https://github.com/mohamedImed/capistrano.git HEAD )
+ DEBUG [c7a69721] 	e777a4387c66eb6a3cfe63f7fd9659efa29b9782	HEAD
+  INFO [c7a69721] Finished in 0.883 seconds with exit status 0 (successful).
+  INFO [ee53ccad] Running /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases as vagrant@192.168.33.10
+ DEBUG [ee53ccad] Command: /usr/bin/env mkdir -p /var/www/capistrano/shared /var/www/capistrano/releases
+  INFO [ee53ccad] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [f5040e37] Running [ -f /var/www/capistrano/current/REVISION ] as vagrant@192.168.33.10
+ DEBUG [f5040e37] Command: [ -f /var/www/capistrano/current/REVISION ]
+ DEBUG [f5040e37] Finished in 0.042 seconds with exit status 1 (failed).
+ DEBUG [92d21b4c] Running [ -f /var/www/capistrano/repo/HEAD ] as vagrant@192.168.33.10
+ DEBUG [92d21b4c] Command: [ -f /var/www/capistrano/repo/HEAD ]
+ DEBUG [92d21b4c] Finished in 0.041 seconds with exit status 1 (failed).
+ DEBUG [47a3af9f] Running if test ! -d /var/www/capistrano; then echo "Directory does not exist '/var/www/capistrano'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [47a3af9f] Command: if test ! -d /var/www/capistrano; then echo "Directory does not exist '/var/www/capistrano'" 1>&2; false; fi
+ DEBUG [47a3af9f] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [ab83a457] Running /usr/bin/env git clone --mirror https://github.com/mohamedImed/capistrano.git /var/www/capistrano/repo as vagrant@192.168.33.10
+ DEBUG [ab83a457] Command: cd /var/www/capistrano && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git clone --mirror https://github.com/mohamedImed/capistrano.git /var/www/capistrano/repo )
+ DEBUG [ab83a457] 	Cloning into bare repository '/var/www/capistrano/repo'...
+  INFO [ab83a457] Finished in 1.493 seconds with exit status 0 (successful).
+ DEBUG [11e30f31] Running if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [11e30f31] Command: if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi
+ DEBUG [11e30f31] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [68d2e606] Running /usr/bin/env git remote set-url origin https://github.com/mohamedImed/capistrano.git as vagrant@192.168.33.10
+ DEBUG [68d2e606] Command: cd /var/www/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git remote set-url origin https://github.com/mohamedImed/capistrano.git )
+  INFO [68d2e606] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [8f551a92] Running /usr/bin/env git remote update --prune as vagrant@192.168.33.10
+ DEBUG [8f551a92] Command: cd /var/www/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8f551a92] 	Fetching origin
+  INFO [8f551a92] Finished in 0.747 seconds with exit status 0 (successful).
+ DEBUG [192456f2] Running if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [192456f2] Command: if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi
+ DEBUG [192456f2] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [b902a494] Running /usr/bin/env mkdir -p /var/www/capistrano/releases/20190817194437 as vagrant@192.168.33.10
+ DEBUG [b902a494] Command: cd /var/www/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env mkdir -p /var/www/capistrano/releases/20190817194437 )
+  INFO [b902a494] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [af3054cc] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/capistrano/releases/20190817194437 as vagrant@192.168.33.10
+ DEBUG [af3054cc] Command: cd /var/www/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/capistrano/releases/20190817194437 )
+  INFO [af3054cc] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [fd11019b] Running if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [fd11019b] Command: if test ! -d /var/www/capistrano/repo; then echo "Directory does not exist '/var/www/capistrano/repo'" 1>&2; false; fi
+ DEBUG [fd11019b] Finished in 0.191 seconds with exit status 0 (successful).
+ DEBUG [f5620a97] Running /usr/bin/env git rev-list --max-count=1 master as vagrant@192.168.33.10
+ DEBUG [f5620a97] Command: cd /var/www/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-vagrant.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f5620a97] 	e777a4387c66eb6a3cfe63f7fd9659efa29b9782
+ DEBUG [f5620a97] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [9831f7de] Running if test ! -d /var/www/capistrano/releases/20190817194437; then echo "Directory does not exist '/var/www/capistrano/releases/20190817194437'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [9831f7de] Command: if test ! -d /var/www/capistrano/releases/20190817194437; then echo "Directory does not exist '/var/www/capistrano/releases/20190817194437'" 1>&2; false; fi
+ DEBUG [9831f7de] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [d7e9211c] Running /usr/bin/env echo "e777a4387c66eb6a3cfe63f7fd9659efa29b9782" > REVISION as vagrant@192.168.33.10
+ DEBUG [d7e9211c] Command: cd /var/www/capistrano/releases/20190817194437 && /usr/bin/env echo "e777a4387c66eb6a3cfe63f7fd9659efa29b9782" > REVISION
+  INFO [d7e9211c] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [c4040f39] Running /usr/bin/env ln -s /var/www/capistrano/releases/20190817194437 /var/www/capistrano/releases/current as vagrant@192.168.33.10
+ DEBUG [c4040f39] Command: /usr/bin/env ln -s /var/www/capistrano/releases/20190817194437 /var/www/capistrano/releases/current
+  INFO [c4040f39] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [a093c96f] Running /usr/bin/env mv /var/www/capistrano/releases/current /var/www/capistrano as vagrant@192.168.33.10
+ DEBUG [a093c96f] Command: /usr/bin/env mv /var/www/capistrano/releases/current /var/www/capistrano
+  INFO [a093c96f] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [b63621af] Running /usr/bin/env ls -x /var/www/capistrano/releases as vagrant@192.168.33.10
+ DEBUG [b63621af] Command: /usr/bin/env ls -x /var/www/capistrano/releases
+ DEBUG [b63621af] 	20190817194437
+ DEBUG [b63621af] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [e1196a41] Running if test ! -d /var/www/capistrano/releases; then echo "Directory does not exist '/var/www/capistrano/releases'" 1>&2; false; fi as vagrant@192.168.33.10
+ DEBUG [e1196a41] Command: if test ! -d /var/www/capistrano/releases; then echo "Directory does not exist '/var/www/capistrano/releases'" 1>&2; false; fi
+ DEBUG [e1196a41] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [a7e6917c] Running /usr/bin/env echo "Branch master (at e777a4387c66eb6a3cfe63f7fd9659efa29b9782) deployed as release 20190817194437 by vagrant" >> /var/www/capistrano/revisions.log as vagrant@192.168.33.10
+ DEBUG [a7e6917c] Command: cd /var/www/capistrano/releases && /usr/bin/env echo "Branch master (at e777a4387c66eb6a3cfe63f7fd9659efa29b9782) deployed as release 20190817194437 by vagrant" >> /var/www/capistrano/revisions.log
+  INFO [a7e6917c] Finished in 0.044 seconds with exit status 0 (successful).
